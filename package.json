@@ -1,0 +1,35 @@
+{
+    "name": "@iimandoo/mts5-ui-component",
+    "version": "0.1.4",
+    "main": "dist",
+    "type": "module",
+    "repository": "https://github.com/iimandoo/mts5-ui-component",
+    "publishConfig": {
+        "@iimandoo:registry": "https://npm.pkg.github.com"
+    },
+    "scripts": {
+        "build": "rollup -c"
+    },
+
+    "devDependencies": {
+        "@rollup/plugin-babel": "^6.0.3",
+        "@rollup/plugin-commonjs": "^24.1.0",
+        "@rollup/plugin-image": "^3.0.2",
+        "@rollup/plugin-node-resolve": "^15.0.2",
+        "@types/react": "18.2.6",
+        "babel": "^6.23.0",
+        "babel-plugin-styled-components": "^2.1.1",
+        "babel-preset-react-app": "^10.0.1",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "rollup": "^3.21.6",
+        "rollup-plugin-peer-deps-external": "^2.2.4",
+        "rollup-plugin-typescript2": "^0.34.1",
+        "typescript": "^5.0.4"
+    },
+    "peerDependencies": {
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    }
+
+}

@@ -1,0 +1,32 @@
+// {
+//     "presets": [
+//         [
+//             "react-app", {
+//                 "flow": false,
+//                 "typescript": true
+//             }
+//         ]
+//     ],
+//     "plugins": ["babel-plugin-styled-components"]
+// }
+{
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "browsers": "> 0.5%, ie >= 11"
+          },
+          "loose": true
+        }
+      ],
+      "@babel/preset-react",
+      "@babel/preset-typescript"
+    ],
+    "plugins": [
+      ["@babel/plugin-proposal-private-property-in-object", { "loose": true }],
+      ["@babel/plugin-proposal-private-methods", { "loose": true }]
+    ],
+    "ignore": ["node_modules"]
+  }
+  

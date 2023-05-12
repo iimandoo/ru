@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "noImplicitAny": false,
+      "noImplicitThis": true,
+      "alwaysStrict": true,
+      "lib": ["DOM", "ES5", "ESNext"],
+      "strictNullChecks": true,
+      "strictPropertyInitialization": true,
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "declaration": true, //빌드할때 자동으로 d.type file을 만들거야!
+      "declarationDir": "dist/types", //d.type file이 만들어졌다면 build/type 폴더에 넣어줘
+      "allowJs": true,
+      "skipLibCheck": true,
+      "sourceMap": true,
+      "rootDir": "src",
+      "outDir": "dist",
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "jsx": "react",
+      "types": ["react"],
+    },
+    "include": ["src/**/*","src/index.ts"],
+// "exclude": ["node_modules"]
+"exclude": ["node_modules", "node_modules/*.d.ts", "*.story.tsx", "**/*.story.tsx"]
+  }
