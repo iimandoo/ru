@@ -1,9 +1,9 @@
 {
-    "name": "@iimandoo/mts5-ui-component",
+    "name": "@iimandoo/ru",
     "version": "0.1.4",
     "main": "dist",
     "type": "module",
-    "repository": "https://github.com/iimandoo/mts5-ui-component",
+    "repository": "https://github.com/iimandoo/ru",
     "publishConfig": {
         "@iimandoo:registry": "https://npm.pkg.github.com"
     },
